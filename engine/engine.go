@@ -13,7 +13,7 @@ func Run(){
 	home := fs.GetEnv("HOME");
 	desktop := home + "/Desktop";
 	target_folder := desktop + "/icons.iconset";
-	cmd.AddQuestion("png_path", "please drag your image here:", "expect .png: ", ".*.png")
+	cmd.AddQuestion("png_path", "please drag your image here:", "expect .png format: ", ".*.png")
 	answers := cmd.Exec()
 	full := strings.Trim(answers["png_path"]," ")
 
