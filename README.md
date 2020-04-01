@@ -12,7 +12,7 @@ icns
 ```
 
 ### example
-Here I will show how to make png into icns, taking below lovely spider for example
+Here I will show how to make png into icns, taking below lovely spider for example</br>
 ![](https://user-images.githubusercontent.com/44701197/78155134-a6643b80-746f-11ea-87cf-c57cad7c9737.png)
 </br>
 Then open the terminal, type in `icns`: </br>
