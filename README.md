@@ -1,14 +1,17 @@
 # icns
 
-A tool written with golang for fast generating icns for your Mac OSX Application. Click [here](https://icon-icons.com/icon/Spider/109115) to get more icon.
+A tool written with golang for fast generating icns for your Mac OSX Application. Click [here](https://icon-icons.com/icon/Spider/109115) to get more beautiful png icon.
 
 ### how to use?
 
-```
-# 1. install
+- First, you should make sure [golang](https://golang.org/dl/) was installed
+- Second, system environment `$GOPATH` was setted. If you don't know how to do it, please refer to https://gist.github.com/molivier/271bba5d67de1583a8e3
+
+```bash
+# 1. open your terminal, install with:
 go install github.com/scott-x/icns
 # 2. run
-icns
+icns   # it will give you a tip "drag your png image to the terminal your command run with"
 ```
 
 ### example
